@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { catchError, tap } from 'rxjs/operators';
 import { Observable } from 'rxjs/Observable';
-import { of } from 'rxjs/Observable/of';
+import { of } from 'rxjs/observable/of';
 
 @Injectable()
 export class RestService {
